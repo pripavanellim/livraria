@@ -27,3 +27,9 @@ INSERT INTO Pedidos (data_pedido, id_produto, quantidade) VALUES
 ('2025-06-15', 1, 2),
 ('2025-06-16', 3, 5),
 ('2025-06-16', 2, 1);
+git init
+git add livraria.sql
+git commit -m "Adicionar script SQL com tabelas Produtos e Pedidos"
+git branch -M main
+git remote add origin https://github.com/pripavanellim/livraria.git
+git push -u origin main
